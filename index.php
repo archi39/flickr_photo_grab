@@ -12,10 +12,12 @@
     <title>Поймай кота</title>
     <script type="text/javascript" src="/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="/photoGrabber.js"></script>
+    <!-- подключите внешние стили -->
+    <link rel=stylesheet href="/style.css">
 </head>
 <body>
 <div align="center">
-    <button style="margin-bottom: 10px;" onclick="getPhoto()">Получить кота</button>
+    <button class="btn" type="button" onclick="getPhoto()"><span>Получить кота</span></button>
     <div id="output"></div>
 </div>
 </body>

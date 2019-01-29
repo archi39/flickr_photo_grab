@@ -12,7 +12,6 @@ function getPhoto() {
         $.each(result.items, function (index, item) {
             $("<img>").attr("src", item.media.m).appendTo("#output");
             if (index == 0) return false;
-
         });
 
     }).fail(function (xhr, status, error) {
